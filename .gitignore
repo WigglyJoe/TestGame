@@ -1,0 +1,4 @@
+node_modules/
+dist/
+src/sim/pkg/
+package-lock.json
