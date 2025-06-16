@@ -1,4 +1,12 @@
-import { Engine, Scene, ArcRotateCamera, HemisphericLight, MeshBuilder, Vector3, InstancedMesh } from 'babylonjs';
+import {
+  Engine,
+  Scene,
+  ArcRotateCamera,
+  HemisphericLight,
+  MeshBuilder,
+  Vector3,
+  InstancedMesh,
+} from '@babylonjs/core';
 
 const canvas = document.getElementById('renderCanvas') as HTMLCanvasElement;
 const engine = new Engine(canvas);

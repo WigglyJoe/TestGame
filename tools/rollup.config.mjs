@@ -6,7 +6,8 @@ import wasm from '@rollup/plugin-wasm';
 export default {
   input: 'src/main.ts',
   output: {
-    file: 'dist/bundle.js',
+    dir: 'dist',
+    entryFileNames: 'bundle.js',
     format: 'esm',
     sourcemap: true
   },
